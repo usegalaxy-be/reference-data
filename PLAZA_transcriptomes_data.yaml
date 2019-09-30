@@ -1,0 +1,1574 @@
+genomes:
+    - genome_id: Actinidia_chinensis_FEI_Lab_v1.0
+      name: Actinidia chinensis FEI Lab v1.0
+      build_id: Actinidia_chinensis_FEI_Lab_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/ach.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.ach.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.ach.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.ach.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.ach.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ach/annotation.selected_transcript.exon_features.ach.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ach/annotation.selected_transcript.all_features.ach.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ach/annotation.all_transcripts.all_features.ach.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ach/annotation.all_transcripts.exon_features.ach.gff3.gz
+      
+    - genome_id: Amborella_trichopoda_Amborella_V1.0
+      name: Amborella trichopoda Amborella V1.0
+      build_id: Amborella_trichopoda_Amborella_V1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/atr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.atr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.atr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.atr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.atr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/atr/annotation.selected_transcript.exon_features.atr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/atr/annotation.selected_transcript.all_features.atr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/atr/annotation.all_transcripts.all_features.atr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/atr/annotation.all_transcripts.exon_features.atr.gff3.gz
+      
+    - genome_id: Amborella_trichopoda_JGI_v1.0
+      name: Amborella trichopoda JGI v1.0
+      build_id: Amborella_trichopoda_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/atr.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.atr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.atr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.atr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.atr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/atr/annotation.selected_transcript.exon_features.atr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/atr/annotation.selected_transcript.all_features.atr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/atr/annotation.all_transcripts.all_features.atr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/atr/annotation.all_transcripts.exon_features.atr.gff3.gz
+      
+    - genome_id: Ananas_comosus_JGI_v3.0
+      name: Ananas comosus JGI v3.0
+      build_id: Ananas_comosus_JGI_v3.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/aco.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.aco.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.aco.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.aco.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.aco.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aco/annotation.selected_transcript.exon_features.aco.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aco/annotation.selected_transcript.all_features.aco.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aco/annotation.all_transcripts.all_features.aco.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aco/annotation.all_transcripts.exon_features.aco.gff3.gz
+      
+    - genome_id: Apostasia_shenzhenica_v1.0
+      name: Apostasia shenzhenica v1.0
+      build_id: Apostasia_shenzhenica_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ash.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ash.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ash.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ash.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ash.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ash/annotation.selected_transcript.exon_features.ash.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ash/annotation.selected_transcript.all_features.ash.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ash/annotation.all_transcripts.all_features.ash.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ash/annotation.all_transcripts.exon_features.ash.gff3.gz
+      
+    - genome_id: Arabidopsis_lyrata_JGI_v1.0
+      name: Arabidopsis lyrata JGI v1.0
+      build_id: Arabidopsis_lyrata_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/aly.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.aly.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.aly.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.aly.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.aly.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/aly/annotation.selected_transcript.exon_features.aly.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/aly/annotation.selected_transcript.all_features.aly.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/aly/annotation.all_transcripts.all_features.aly.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/aly/annotation.all_transcripts.exon_features.aly.gff3.gz
+      
+    - genome_id: Arabidopsis_lyrata_JGI_v2.1
+      name: Arabidopsis lyrata JGI v2.1
+      build_id: Arabidopsis_lyrata_JGI_v2.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/aly.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.aly.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.aly.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.aly.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.aly.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aly/annotation.selected_transcript.exon_features.aly.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aly/annotation.selected_transcript.all_features.aly.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aly/annotation.all_transcripts.all_features.aly.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aly/annotation.all_transcripts.exon_features.aly.gff3.gz
+      
+    - genome_id: Arabidopsis_thaliana_COL-0_Araport11
+      name: Arabidopsis thaliana COL-0 Araport11
+      build_id: Arabidopsis_thaliana_COL-0_Araport11
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ath.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ath.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ath.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ath.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ath.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ath/annotation.selected_transcript.exon_features.ath.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ath/annotation.selected_transcript.all_features.ath.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ath/annotation.all_transcripts.all_features.ath.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ath/annotation.all_transcripts.exon_features.ath.gff3.gz
+      
+    - genome_id: Arabidopsis_thaliana_COL-0_TAIR10
+      name: Arabidopsis thaliana COL-0 TAIR10
+      build_id: Arabidopsis_thaliana_COL-0_TAIR10
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/ath.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.ath.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.ath.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.ath.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.ath.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.selected_transcript.exon_features.ath.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.selected_transcript.all_features.ath.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.all_transcripts.all_features.ath.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.all_transcripts.exon_features.ath.gff3.gz
+      
+    - genome_id: Arachis_ipaensis_Peanut_Base_v1.0
+      name: Arachis ipaensis Peanut Base v1.0
+      build_id: Arachis_ipaensis_Peanut_Base_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/aip.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.aip.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.aip.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.aip.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.aip.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aip/annotation.selected_transcript.exon_features.aip.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aip/annotation.selected_transcript.all_features.aip.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aip/annotation.all_transcripts.all_features.aip.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/aip/annotation.all_transcripts.exon_features.aip.gff3.gz
+      
+    - genome_id: Asparagus_officinalis_v1.1
+      name: Asparagus officinalis v1.1
+      build_id: Asparagus_officinalis_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/aof.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.aof.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.aof.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.aof.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.aof.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aof/annotation.selected_transcript.exon_features.aof.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aof/annotation.selected_transcript.all_features.aof.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aof/annotation.all_transcripts.all_features.aof.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/aof/annotation.all_transcripts.exon_features.aof.gff3.gz
+      
+    - genome_id: Beta_vulgaris_RefBeet_1.1
+      name: Beta vulgaris RefBeet 1.1
+      build_id: Beta_vulgaris_RefBeet_1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/bvu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.bvu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.bvu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.bvu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.bvu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bvu/annotation.selected_transcript.exon_features.bvu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bvu/annotation.selected_transcript.all_features.bvu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bvu/annotation.all_transcripts.all_features.bvu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bvu/annotation.all_transcripts.exon_features.bvu.gff3.gz
+      
+    - genome_id: Beta_vulgaris_RefBeet_v1.2
+      name: Beta vulgaris RefBeet v1.2
+      build_id: Beta_vulgaris_RefBeet_v1.2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/bvu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.bvu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.bvu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.bvu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.bvu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bvu/annotation.selected_transcript.exon_features.bvu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bvu/annotation.selected_transcript.all_features.bvu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bvu/annotation.all_transcripts.all_features.bvu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bvu/annotation.all_transcripts.exon_features.bvu.gff3.gz
+      
+    - genome_id: Brachypodium_distachyon_JGI_v3.1
+      name: Brachypodium distachyon JGI v3.1
+      build_id: Brachypodium_distachyon_JGI_v3.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/bdi.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.bdi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.bdi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.bdi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.bdi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/bdi/annotation.selected_transcript.exon_features.bdi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/bdi/annotation.selected_transcript.all_features.bdi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/bdi/annotation.all_transcripts.all_features.bdi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/bdi/annotation.all_transcripts.exon_features.bdi.gff3.gz
+      
+    - genome_id: Brachypodium_distachyon_MIPS_1.2
+      name: Brachypodium distachyon MIPS 1.2
+      build_id: Brachypodium_distachyon_MIPS_1.2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/bdi.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.bdi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.bdi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.bdi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.bdi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/bdi/annotation.selected_transcript.exon_features.bdi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/bdi/annotation.selected_transcript.all_features.bdi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/bdi/annotation.all_transcripts.all_features.bdi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/bdi/annotation.all_transcripts.exon_features.bdi.gff3.gz
+      
+    - genome_id: Brassica_oleracea_Ensembl_Genomes_v2.1
+      name: Brassica oleracea Ensembl Genomes v2.1
+      build_id: Brassica_oleracea_Ensembl_Genomes_v2.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/bol.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.bol.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.bol.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.bol.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.bol.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bol/annotation.selected_transcript.exon_features.bol.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bol/annotation.selected_transcript.all_features.bol.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bol/annotation.all_transcripts.all_features.bol.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bol/annotation.all_transcripts.exon_features.bol.gff3.gz
+      
+    - genome_id: Brassica_rapa_Annotation_v1.2_on_assembly_v1.1_Phytozome_9.1
+      name: Brassica rapa Annotation v1.2 on assembly v1.1 (Phytozome 9.1)
+      build_id: Brassica_rapa_Annotation_v1.2_on_assembly_v1.1_Phytozome_9.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/bra.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.bra.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.bra.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.bra.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.bra.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bra/annotation.selected_transcript.exon_features.bra.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bra/annotation.selected_transcript.all_features.bra.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bra/annotation.all_transcripts.all_features.bra.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/bra/annotation.all_transcripts.exon_features.bra.gff3.gz
+      
+    - genome_id: Brassica_rapa_JGI_FPsc1.3
+      name: Brassica rapa JGI FPsc1.3
+      build_id: Brassica_rapa_JGI_FPsc1.3
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/bra.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.bra.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.bra.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.bra.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.bra.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bra/annotation.selected_transcript.exon_features.bra.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bra/annotation.selected_transcript.all_features.bra.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bra/annotation.all_transcripts.all_features.bra.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/bra/annotation.all_transcripts.exon_features.bra.gff3.gz
+      
+    - genome_id: Cajanus_cajan_Penguin_Genomics_v5.0
+      name: Cajanus cajan Penguin Genomics v5.0
+      build_id: Cajanus_cajan_Penguin_Genomics_v5.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/ccaj.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.ccaj.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.ccaj.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.ccaj.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.ccaj.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccaj/annotation.selected_transcript.exon_features.ccaj.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccaj/annotation.selected_transcript.all_features.ccaj.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccaj/annotation.all_transcripts.all_features.ccaj.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccaj/annotation.all_transcripts.exon_features.ccaj.gff3.gz
+      
+    - genome_id: Capsella_rubella_JGI_annotation_v1.0_on_assembly_v1
+      name: Capsella rubella JGI annotation v1.0 on assembly v1
+      build_id: Capsella_rubella_JGI_annotation_v1.0_on_assembly_v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/cru.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.cru.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.cru.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.cru.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.cru.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cru/annotation.selected_transcript.exon_features.cru.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cru/annotation.selected_transcript.all_features.cru.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cru/annotation.all_transcripts.all_features.cru.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cru/annotation.all_transcripts.exon_features.cru.gff3.gz
+      
+    - genome_id: Capsella_rubella_JGI_v1.0
+      name: Capsella rubella JGI v1.0
+      build_id: Capsella_rubella_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/cru.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.cru.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.cru.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.cru.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.cru.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cru/annotation.selected_transcript.exon_features.cru.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cru/annotation.selected_transcript.all_features.cru.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cru/annotation.all_transcripts.all_features.cru.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cru/annotation.all_transcripts.exon_features.cru.gff3.gz
+      
+    - genome_id: Capsicum_annuum_Pepper_Genome_v2.0
+      name: Capsicum annuum Pepper Genome v2.0
+      build_id: Capsicum_annuum_Pepper_Genome_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/can.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.can.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.can.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.can.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.can.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/can/annotation.selected_transcript.exon_features.can.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/can/annotation.selected_transcript.all_features.can.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/can/annotation.all_transcripts.all_features.can.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/can/annotation.all_transcripts.exon_features.can.gff3.gz
+      
+    - genome_id: Carica_papaya_Hawaii_Agriculture_Research_Center
+      name: Carica papaya Hawaii Agriculture Research Center
+      build_id: Carica_papaya_Hawaii_Agriculture_Research_Center
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/cpa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.cpa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.cpa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.cpa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.cpa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cpa/annotation.selected_transcript.exon_features.cpa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cpa/annotation.selected_transcript.all_features.cpa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cpa/annotation.all_transcripts.all_features.cpa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cpa/annotation.all_transcripts.exon_features.cpa.gff3.gz
+      
+    - genome_id: Carica_papaya_JGI_ASGPB0.4
+      name: Carica papaya JGI ASGPB0.4
+      build_id: Carica_papaya_JGI_ASGPB0.4
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/cpa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.cpa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.cpa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.cpa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.cpa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cpa/annotation.selected_transcript.exon_features.cpa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cpa/annotation.selected_transcript.all_features.cpa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cpa/annotation.all_transcripts.all_features.cpa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cpa/annotation.all_transcripts.exon_features.cpa.gff3.gz
+      
+    - genome_id: Cenchrus_americanus_v1.0
+      name: Cenchrus americanus v1.0
+      build_id: Cenchrus_americanus_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/cam.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.cam.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.cam.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.cam.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.cam.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cam/annotation.selected_transcript.exon_features.cam.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cam/annotation.selected_transcript.all_features.cam.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cam/annotation.all_transcripts.all_features.cam.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cam/annotation.all_transcripts.exon_features.cam.gff3.gz
+      
+    - genome_id: Chenopodium_quinoa_JGI_v1.0
+      name: Chenopodium quinoa JGI v1.0
+      build_id: Chenopodium_quinoa_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/cqu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.cqu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.cqu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.cqu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.cqu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cqu/annotation.selected_transcript.exon_features.cqu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cqu/annotation.selected_transcript.all_features.cqu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cqu/annotation.all_transcripts.all_features.cqu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cqu/annotation.all_transcripts.exon_features.cqu.gff3.gz
+      
+    - genome_id: Chlamydomonas_reinhardtii_JGI_v5.0_assembly_annot_v5.3.1_based_on_Augustus_u11.6
+      name: Chlamydomonas reinhardtii JGI v5.0 assembly, annot v5.3.1 based on Augustus u11.6
+      build_id: Chlamydomonas_reinhardtii_JGI_v5.0_assembly_annot_v5.3.1_based_on_Augustus_u11.6
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/cre.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.cre.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.cre.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.cre.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.cre.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cre/annotation.selected_transcript.exon_features.cre.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cre/annotation.selected_transcript.all_features.cre.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cre/annotation.all_transcripts.all_features.cre.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cre/annotation.all_transcripts.exon_features.cre.gff3.gz
+      
+    - genome_id: Chlamydomonas_reinhardtii_JGI_v5.5
+      name: Chlamydomonas reinhardtii JGI v5.5
+      build_id: Chlamydomonas_reinhardtii_JGI_v5.5
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/cre.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.cre.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.cre.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.cre.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.cre.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cre/annotation.selected_transcript.exon_features.cre.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cre/annotation.selected_transcript.all_features.cre.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cre/annotation.all_transcripts.all_features.cre.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/cre/annotation.all_transcripts.exon_features.cre.gff3.gz
+      
+    - genome_id: Cicer_arietinum_LIS_v1.0
+      name: Cicer arietinum LIS v1.0
+      build_id: Cicer_arietinum_LIS_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/car.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.car.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.car.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.car.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.car.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/car/annotation.selected_transcript.exon_features.car.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/car/annotation.selected_transcript.all_features.car.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/car/annotation.all_transcripts.all_features.car.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/car/annotation.all_transcripts.exon_features.car.gff3.gz
+      
+    - genome_id: Citrullus_lanatus_Cucurbit_Genomics_Database
+      name: Citrullus lanatus Cucurbit Genomics Database
+      build_id: Citrullus_lanatus_Cucurbit_Genomics_Database
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/cla.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.cla.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.cla.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.cla.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.cla.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cla/annotation.selected_transcript.exon_features.cla.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cla/annotation.selected_transcript.all_features.cla.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cla/annotation.all_transcripts.all_features.cla.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/cla/annotation.all_transcripts.exon_features.cla.gff3.gz
+      
+    - genome_id: Citrullus_lanatus_Cucurbit_Genomics_Database_v1.0
+      name: Citrullus lanatus Cucurbit Genomics Database v1.0
+      build_id: Citrullus_lanatus_Cucurbit_Genomics_Database_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/cla.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.cla.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.cla.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.cla.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.cla.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cla/annotation.selected_transcript.exon_features.cla.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cla/annotation.selected_transcript.all_features.cla.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cla/annotation.all_transcripts.all_features.cla.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cla/annotation.all_transcripts.exon_features.cla.gff3.gz
+      
+    - genome_id: Citrus_clementina_JGI_v1.0
+      name: Citrus clementina JGI v1.0
+      build_id: Citrus_clementina_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/ccl.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.ccl.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.ccl.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.ccl.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.ccl.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccl/annotation.selected_transcript.exon_features.ccl.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccl/annotation.selected_transcript.all_features.ccl.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccl/annotation.all_transcripts.all_features.ccl.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccl/annotation.all_transcripts.exon_features.ccl.gff3.gz
+      
+    - genome_id: Citrus_sinensis_JGI_v1_assembly_and_v1.0_annotation
+      name: Citrus sinensis JGI v1 assembly and v1.0 annotation
+      build_id: Citrus_sinensis_JGI_v1_assembly_and_v1.0_annotation
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/csi.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.csi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.csi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.csi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.csi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/csi/annotation.selected_transcript.exon_features.csi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/csi/annotation.selected_transcript.all_features.csi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/csi/annotation.all_transcripts.all_features.csi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/csi/annotation.all_transcripts.exon_features.csi.gff3.gz
+      
+    - genome_id: Coffea_canephora_Coffee_Genome_Hub_v1
+      name: Coffea canephora Coffee Genome Hub v1
+      build_id: Coffea_canephora_Coffee_Genome_Hub_v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/ccan.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.ccan.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.ccan.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.ccan.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.ccan.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccan/annotation.selected_transcript.exon_features.ccan.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccan/annotation.selected_transcript.all_features.ccan.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccan/annotation.all_transcripts.all_features.ccan.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ccan/annotation.all_transcripts.exon_features.ccan.gff3.gz
+      
+    - genome_id: Corchorus_olitorius_GenBank_v1.0
+      name: Corchorus olitorius GenBank v1.0
+      build_id: Corchorus_olitorius_GenBank_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/col.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.col.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.col.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.col.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.col.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/col/annotation.selected_transcript.exon_features.col.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/col/annotation.selected_transcript.all_features.col.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/col/annotation.all_transcripts.all_features.col.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/col/annotation.all_transcripts.exon_features.col.gff3.gz
+      
+    - genome_id: Cucumis_melo_Melonomics_v3.5
+      name: Cucumis melo Melonomics v3.5
+      build_id: Cucumis_melo_Melonomics_v3.5
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/cme.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.cme.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.cme.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.cme.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.cme.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cme/annotation.selected_transcript.exon_features.cme.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cme/annotation.selected_transcript.all_features.cme.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cme/annotation.all_transcripts.all_features.cme.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/cme/annotation.all_transcripts.exon_features.cme.gff3.gz
+      
+    - genome_id: Cucumis_sativus_L._JGI_v1.0
+      name: Cucumis sativus L. JGI v1.0
+      build_id: Cucumis_sativus_L._JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/csa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.csa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.csa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.csa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.csa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/csa/annotation.selected_transcript.exon_features.csa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/csa/annotation.selected_transcript.all_features.csa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/csa/annotation.all_transcripts.all_features.csa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/csa/annotation.all_transcripts.exon_features.csa.gff3.gz
+      
+    - genome_id: Daucus_carota_JGI_v2.0
+      name: Daucus carota JGI v2.0
+      build_id: Daucus_carota_JGI_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/dca.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.dca.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.dca.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.dca.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.dca.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/dca/annotation.selected_transcript.exon_features.dca.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/dca/annotation.selected_transcript.all_features.dca.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/dca/annotation.all_transcripts.all_features.dca.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/dca/annotation.all_transcripts.exon_features.dca.gff3.gz
+      
+    - genome_id: Elaeis_guineensis_EG5.1
+      name: Elaeis guineensis EG5.1
+      build_id: Elaeis_guineensis_EG5.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/egu.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.egu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.egu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.egu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.egu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/egu/annotation.selected_transcript.exon_features.egu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/egu/annotation.selected_transcript.all_features.egu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/egu/annotation.all_transcripts.all_features.egu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/egu/annotation.all_transcripts.exon_features.egu.gff3.gz
+      
+    - genome_id: Elaeis_guineensis_NCBI_Genome_v1.0
+      name: Elaeis guineensis NCBI Genome v1.0
+      build_id: Elaeis_guineensis_NCBI_Genome_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Genomes/egu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.all_transcripts.egu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.selected_transcript.egu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.all_transcripts.egu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.selected_transcript.egu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/egu/annotation.selected_transcript.exon_features.egu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/egu/annotation.selected_transcript.all_features.egu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/egu/annotation.all_transcripts.all_features.egu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/egu/annotation.all_transcripts.exon_features.egu.gff3.gz
+      
+    - genome_id: Erythranthe_guttata_JGI_v2.0
+      name: Erythranthe guttata JGI v2.0
+      build_id: Erythranthe_guttata_JGI_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/egut.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.egut.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.egut.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.egut.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.egut.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egut/annotation.selected_transcript.exon_features.egut.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egut/annotation.selected_transcript.all_features.egut.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egut/annotation.all_transcripts.all_features.egut.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egut/annotation.all_transcripts.exon_features.egut.gff3.gz
+      
+    - genome_id: Eucalyptus_grandis_JGI_assembly_v1.0_annotation_v1.1
+      name: Eucalyptus grandis JGI assembly v1.0, annotation v1.1
+      build_id: Eucalyptus_grandis_JGI_assembly_v1.0_annotation_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/egr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.egr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.egr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.egr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.egr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/egr/annotation.selected_transcript.exon_features.egr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/egr/annotation.selected_transcript.all_features.egr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/egr/annotation.all_transcripts.all_features.egr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/egr/annotation.all_transcripts.exon_features.egr.gff3.gz
+      
+    - genome_id: Eucalyptus_grandis_JGI_v2.0
+      name: Eucalyptus grandis JGI v2.0
+      build_id: Eucalyptus_grandis_JGI_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/egr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.egr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.egr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.egr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.egr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egr/annotation.selected_transcript.exon_features.egr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egr/annotation.selected_transcript.all_features.egr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egr/annotation.all_transcripts.all_features.egr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/egr/annotation.all_transcripts.exon_features.egr.gff3.gz
+      
+    - genome_id: Fragaria_vesca_JGI_v1.1
+      name: Fragaria vesca JGI v1.1
+      build_id: Fragaria_vesca_JGI_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/fve.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.fve.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.fve.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.fve.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.fve.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/fve/annotation.selected_transcript.exon_features.fve.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/fve/annotation.selected_transcript.all_features.fve.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/fve/annotation.all_transcripts.all_features.fve.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/fve/annotation.all_transcripts.exon_features.fve.gff3.gz
+      
+    - genome_id: Fragaria_vesca_Strawberry_Genome_1.0
+      name: Fragaria vesca Strawberry Genome 1.0
+      build_id: Fragaria_vesca_Strawberry_Genome_1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/fve.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.fve.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.fve.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.fve.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.fve.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/fve/annotation.selected_transcript.exon_features.fve.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/fve/annotation.selected_transcript.all_features.fve.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/fve/annotation.all_transcripts.all_features.fve.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/fve/annotation.all_transcripts.exon_features.fve.gff3.gz
+      
+    - genome_id: Glycine_max_JGI_Glyma1.1_annotation_of_the_chromosome-based_Glyma1_assembly
+      name: Glycine max JGI Glyma1.1 annotation of the chromosome-based Glyma1 assembly
+      build_id: Glycine_max_JGI_Glyma1.1_annotation_of_the_chromosome-based_Glyma1_assembly
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/gma.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.gma.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.gma.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.gma.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.gma.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gma/annotation.selected_transcript.exon_features.gma.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gma/annotation.selected_transcript.all_features.gma.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gma/annotation.all_transcripts.all_features.gma.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gma/annotation.all_transcripts.exon_features.gma.gff3.gz
+      
+    - genome_id: Glycine_max_JGI_Wm82.a2.v1
+      name: Glycine max JGI Wm82.a2.v1
+      build_id: Glycine_max_JGI_Wm82.a2.v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/gma.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.gma.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.gma.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.gma.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.gma.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gma/annotation.selected_transcript.exon_features.gma.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gma/annotation.selected_transcript.all_features.gma.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gma/annotation.all_transcripts.all_features.gma.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gma/annotation.all_transcripts.exon_features.gma.gff3.gz
+      
+    - genome_id: Gossypium_raimondii_JGI_annotation_v2.1_on_assembly_v2.0
+      name: Gossypium raimondii JGI annotation v2.1 on assembly v2.0
+      build_id: Gossypium_raimondii_JGI_annotation_v2.1_on_assembly_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/gra.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.gra.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.gra.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.gra.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.gra.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gra/annotation.selected_transcript.exon_features.gra.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gra/annotation.selected_transcript.all_features.gra.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gra/annotation.all_transcripts.all_features.gra.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/gra/annotation.all_transcripts.exon_features.gra.gff3.gz
+      
+    - genome_id: Gossypium_raimondii_JGI_v2.1
+      name: Gossypium raimondii JGI v2.1
+      build_id: Gossypium_raimondii_JGI_v2.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/gra.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.gra.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.gra.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.gra.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.gra.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gra/annotation.selected_transcript.exon_features.gra.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gra/annotation.selected_transcript.all_features.gra.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gra/annotation.all_transcripts.all_features.gra.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/gra/annotation.all_transcripts.exon_features.gra.gff3.gz
+      
+    - genome_id: Hevea_brasiliensis_NCBI_Genomes_v1
+      name: Hevea brasiliensis NCBI Genomes v1
+      build_id: Hevea_brasiliensis_NCBI_Genomes_v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/hbr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.hbr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.hbr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.hbr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.hbr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/hbr/annotation.selected_transcript.exon_features.hbr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/hbr/annotation.selected_transcript.all_features.hbr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/hbr/annotation.all_transcripts.all_features.hbr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/hbr/annotation.all_transcripts.exon_features.hbr.gff3.gz
+      
+    - genome_id: Hordeum_vulgare_Ensembl_Genomes_ASM32608v1
+      name: Hordeum vulgare Ensembl Genomes ASM32608v1
+      build_id: Hordeum_vulgare_Ensembl_Genomes_ASM32608v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Genomes/hvu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.all_transcripts.hvu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.selected_transcript.hvu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.all_transcripts.hvu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.selected_transcript.hvu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/hvu/annotation.selected_transcript.exon_features.hvu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/hvu/annotation.selected_transcript.all_features.hvu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/hvu/annotation.all_transcripts.all_features.hvu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/hvu/annotation.all_transcripts.exon_features.hvu.gff3.gz
+      
+    - genome_id: Hordeum_vulgare_IBC_PGSB_v2
+      name: Hordeum vulgare IBC PGSB v2
+      build_id: Hordeum_vulgare_IBC_PGSB_v2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/hvu.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.hvu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.hvu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.hvu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.hvu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/hvu/annotation.selected_transcript.exon_features.hvu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/hvu/annotation.selected_transcript.all_features.hvu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/hvu/annotation.all_transcripts.all_features.hvu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/hvu/annotation.all_transcripts.exon_features.hvu.gff3.gz
+      
+    - genome_id: Hordeum_vulgare_MIPS
+      name: Hordeum vulgare MIPS
+      build_id: Hordeum_vulgare_MIPS
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/hvu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.hvu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.hvu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.hvu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.hvu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/hvu/annotation.selected_transcript.exon_features.hvu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/hvu/annotation.selected_transcript.all_features.hvu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/hvu/annotation.all_transcripts.all_features.hvu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/hvu/annotation.all_transcripts.exon_features.hvu.gff3.gz
+      
+    - genome_id: Lotus_japonicus_Kazusa_2.5
+      name: Lotus japonicus Kazusa 2.5
+      build_id: Lotus_japonicus_Kazusa_2.5
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/lja.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.lja.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.lja.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.lja.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.lja.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/lja/annotation.selected_transcript.exon_features.lja.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/lja/annotation.selected_transcript.all_features.lja.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/lja/annotation.all_transcripts.all_features.lja.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/lja/annotation.all_transcripts.exon_features.lja.gff3.gz
+      
+    - genome_id: Malus_domestica_IASMA
+      name: Malus domestica IASMA
+      build_id: Malus_domestica_IASMA
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/mdo.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.mdo.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.mdo.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.mdo.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.mdo.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mdo/annotation.selected_transcript.exon_features.mdo.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mdo/annotation.selected_transcript.all_features.mdo.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mdo/annotation.all_transcripts.all_features.mdo.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mdo/annotation.all_transcripts.exon_features.mdo.gff3.gz
+      
+    - genome_id: Malus_domestica_Penguin_Genomics_v2
+      name: Malus domestica Penguin Genomics v2
+      build_id: Malus_domestica_Penguin_Genomics_v2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/mdo.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.mdo.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.mdo.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.mdo.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.mdo.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mdo/annotation.selected_transcript.exon_features.mdo.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mdo/annotation.selected_transcript.all_features.mdo.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mdo/annotation.all_transcripts.all_features.mdo.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mdo/annotation.all_transcripts.exon_features.mdo.gff3.gz
+      
+    - genome_id: Manihot_esculenta_Cassava4
+      name: Manihot esculenta Cassava4
+      build_id: Manihot_esculenta_Cassava4
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/mes.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.mes.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.mes.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.mes.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.mes.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mes/annotation.selected_transcript.exon_features.mes.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mes/annotation.selected_transcript.all_features.mes.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mes/annotation.all_transcripts.all_features.mes.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mes/annotation.all_transcripts.exon_features.mes.gff3.gz
+      
+    - genome_id: Manihot_esculenta_JGI_v6.1
+      name: Manihot esculenta JGI v6.1
+      build_id: Manihot_esculenta_JGI_v6.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/mes.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.mes.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.mes.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.mes.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.mes.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mes/annotation.selected_transcript.exon_features.mes.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mes/annotation.selected_transcript.all_features.mes.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mes/annotation.all_transcripts.all_features.mes.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mes/annotation.all_transcripts.exon_features.mes.gff3.gz
+      
+    - genome_id: Marchantia_polymorpha_JGI_v3.1
+      name: Marchantia polymorpha JGI v3.1
+      build_id: Marchantia_polymorpha_JGI_v3.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/mpo.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.mpo.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.mpo.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.mpo.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.mpo.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mpo/annotation.selected_transcript.exon_features.mpo.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mpo/annotation.selected_transcript.all_features.mpo.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mpo/annotation.all_transcripts.all_features.mpo.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mpo/annotation.all_transcripts.exon_features.mpo.gff3.gz
+      
+    - genome_id: Medicago_truncatula_JCVI_4.0
+      name: Medicago truncatula JCVI 4.0
+      build_id: Medicago_truncatula_JCVI_4.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/mtr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.mtr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.mtr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.mtr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.mtr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mtr/annotation.selected_transcript.exon_features.mtr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mtr/annotation.selected_transcript.all_features.mtr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mtr/annotation.all_transcripts.all_features.mtr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/mtr/annotation.all_transcripts.exon_features.mtr.gff3.gz
+      
+    - genome_id: Medicago_truncatula_JGI_Mt4.0v1
+      name: Medicago truncatula JGI Mt4.0v1
+      build_id: Medicago_truncatula_JGI_Mt4.0v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/mtr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.mtr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.mtr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.mtr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.mtr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mtr/annotation.selected_transcript.exon_features.mtr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mtr/annotation.selected_transcript.all_features.mtr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mtr/annotation.all_transcripts.all_features.mtr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/mtr/annotation.all_transcripts.exon_features.mtr.gff3.gz
+      
+    - genome_id: Micromonas_commoda_JGI_v3.0
+      name: Micromonas commoda JGI v3.0
+      build_id: Micromonas_commoda_JGI_v3.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/mco.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.mco.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.mco.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.mco.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.mco.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mco/annotation.selected_transcript.exon_features.mco.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mco/annotation.selected_transcript.all_features.mco.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mco/annotation.all_transcripts.all_features.mco.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mco/annotation.all_transcripts.exon_features.mco.gff3.gz
+      
+    - genome_id: Musa_acuminata_Banana_Genome_v1.0
+      name: Musa acuminata Banana Genome v1.0
+      build_id: Musa_acuminata_Banana_Genome_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Genomes/mac.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.all_transcripts.mac.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.selected_transcript.mac.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.all_transcripts.mac.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.selected_transcript.mac.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/mac/annotation.selected_transcript.exon_features.mac.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/mac/annotation.selected_transcript.all_features.mac.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/mac/annotation.all_transcripts.all_features.mac.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/mac/annotation.all_transcripts.exon_features.mac.gff3.gz
+      
+    - genome_id: Musa_acuminata_Banana_Genome_v2.0
+      name: Musa acuminata Banana Genome v2.0
+      build_id: Musa_acuminata_Banana_Genome_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/mac.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.mac.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.mac.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.mac.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.mac.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mac/annotation.selected_transcript.exon_features.mac.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mac/annotation.selected_transcript.all_features.mac.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mac/annotation.all_transcripts.all_features.mac.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/mac/annotation.all_transcripts.exon_features.mac.gff3.gz
+      
+    - genome_id: Musa_acuminata_Genescope-Cirad
+      name: Musa acuminata Genescope-Cirad
+      build_id: Musa_acuminata_Genescope-Cirad
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/mac.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.mac.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.mac.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.mac.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.mac.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/mac/annotation.selected_transcript.exon_features.mac.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/mac/annotation.selected_transcript.all_features.mac.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/mac/annotation.all_transcripts.all_features.mac.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/mac/annotation.all_transcripts.exon_features.mac.gff3.gz
+      
+    - genome_id: Nelumbo_nucifera_LOTUS-DB_v1.1
+      name: Nelumbo nucifera LOTUS-DB v1.1
+      build_id: Nelumbo_nucifera_LOTUS-DB_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/nnu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.nnu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.nnu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.nnu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.nnu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/nnu/annotation.selected_transcript.exon_features.nnu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/nnu/annotation.selected_transcript.all_features.nnu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/nnu/annotation.all_transcripts.all_features.nnu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/nnu/annotation.all_transcripts.exon_features.nnu.gff3.gz
+      
+    - genome_id: Oropetium_thomaeum_JGI_v1.0
+      name: Oropetium thomaeum JGI v1.0
+      build_id: Oropetium_thomaeum_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/oth.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.oth.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.oth.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.oth.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.oth.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/oth/annotation.selected_transcript.exon_features.oth.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/oth/annotation.selected_transcript.all_features.oth.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/oth/annotation.all_transcripts.all_features.oth.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/oth/annotation.all_transcripts.exon_features.oth.gff3.gz
+      
+    - genome_id: Oryza_brachyantha_Ensembl_Plants_v1.4b
+      name: Oryza brachyantha Ensembl Plants v1.4b
+      build_id: Oryza_brachyantha_Ensembl_Plants_v1.4b
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/obr.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.obr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.obr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.obr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.obr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/obr/annotation.selected_transcript.exon_features.obr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/obr/annotation.selected_transcript.all_features.obr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/obr/annotation.all_transcripts.all_features.obr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/obr/annotation.all_transcripts.exon_features.obr.gff3.gz
+      
+    - genome_id: Oryza_sativa_ssp._indica_9311_BGF_2005
+      name: Oryza sativa ssp. indica 9311_BGF_2005
+      build_id: Oryza_sativa_ssp._indica_9311_BGF_2005
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/osaindica.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.osaindica.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.osaindica.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.osaindica.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.osaindica.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/osaindica/annotation.selected_transcript.exon_features.osaindica.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/osaindica/annotation.selected_transcript.all_features.osaindica.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/osaindica/annotation.all_transcripts.all_features.osaindica.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/osaindica/annotation.all_transcripts.exon_features.osaindica.gff3.gz
+      
+    - genome_id: Oryza_sativa_ssp._indica_MBKBASE_v1.0
+      name: Oryza sativa ssp. indica MBKBASE v1.0
+      build_id: Oryza_sativa_ssp._indica_MBKBASE_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/osaindica.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.osaindica.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.osaindica.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.osaindica.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.osaindica.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osaindica/annotation.selected_transcript.exon_features.osaindica.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osaindica/annotation.selected_transcript.all_features.osaindica.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osaindica/annotation.all_transcripts.all_features.osaindica.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osaindica/annotation.all_transcripts.exon_features.osaindica.gff3.gz
+      
+    - genome_id: Oryza_sativa_ssp._japonica_JGI_v7.0
+      name: Oryza sativa ssp. japonica JGI v7.0
+      build_id: Oryza_sativa_ssp._japonica_JGI_v7.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/osa.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.osa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.osa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.osa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.osa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osa/annotation.selected_transcript.exon_features.osa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osa/annotation.selected_transcript.all_features.osa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osa/annotation.all_transcripts.all_features.osa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/osa/annotation.all_transcripts.exon_features.osa.gff3.gz
+      
+    - genome_id: Oryza_sativa_ssp._japonica_MSU_RGAP_7
+      name: Oryza sativa ssp. japonica MSU RGAP 7
+      build_id: Oryza_sativa_ssp._japonica_MSU_RGAP_7
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/osa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.osa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.osa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.osa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.osa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/osa/annotation.selected_transcript.exon_features.osa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/osa/annotation.selected_transcript.all_features.osa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/osa/annotation.all_transcripts.all_features.osa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/osa/annotation.all_transcripts.exon_features.osa.gff3.gz
+      
+    - genome_id: Ostreococcus_lucimarinus_JGI_2.0
+      name: Ostreococcus lucimarinus JGI 2.0
+      build_id: Ostreococcus_lucimarinus_JGI_2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/olu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.olu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.olu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.olu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.olu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/olu/annotation.selected_transcript.exon_features.olu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/olu/annotation.selected_transcript.all_features.olu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/olu/annotation.all_transcripts.all_features.olu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/olu/annotation.all_transcripts.exon_features.olu.gff3.gz
+      
+    - genome_id: Ostreococcus_lucimarinus_JGI_v2.0_assembly_and_annotation
+      name: Ostreococcus lucimarinus JGI v2.0 assembly and annotation
+      build_id: Ostreococcus_lucimarinus_JGI_v2.0_assembly_and_annotation
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/olu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.olu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.olu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.olu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.olu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/olu/annotation.selected_transcript.exon_features.olu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/olu/annotation.selected_transcript.all_features.olu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/olu/annotation.all_transcripts.all_features.olu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/olu/annotation.all_transcripts.exon_features.olu.gff3.gz
+      
+    - genome_id: Petunia_axillaris_Sol_Genomics_v1.6.2
+      name: Petunia axillaris Sol Genomics v1.6.2
+      build_id: Petunia_axillaris_Sol_Genomics_v1.6.2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/pax.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.pax.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.pax.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.pax.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.pax.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pax/annotation.selected_transcript.exon_features.pax.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pax/annotation.selected_transcript.all_features.pax.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pax/annotation.all_transcripts.all_features.pax.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pax/annotation.all_transcripts.exon_features.pax.gff3.gz
+      
+    - genome_id: Phalaenopsis_equestris_Genomics_v1.0
+      name: Phalaenopsis equestris Genomics v1.0
+      build_id: Phalaenopsis_equestris_Genomics_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/peq.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.peq.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.peq.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.peq.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.peq.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/peq/annotation.selected_transcript.exon_features.peq.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/peq/annotation.selected_transcript.all_features.peq.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/peq/annotation.all_transcripts.all_features.peq.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/peq/annotation.all_transcripts.exon_features.peq.gff3.gz
+      
+    - genome_id: Phyllostachys_edulis_NCGR_v1.0
+      name: Phyllostachys edulis NCGR v1.0
+      build_id: Phyllostachys_edulis_NCGR_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ped.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ped.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ped.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ped.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ped.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ped/annotation.selected_transcript.exon_features.ped.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ped/annotation.selected_transcript.all_features.ped.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ped/annotation.all_transcripts.all_features.ped.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ped/annotation.all_transcripts.exon_features.ped.gff3.gz
+      
+    - genome_id: Physcomitrella_patens_JGI_assembly_release_v1.1_and_COSMOSS_annotation_v1.6
+      name: Physcomitrella patens JGI assembly release v1.1 and COSMOSS annotation v1.6
+      build_id: Physcomitrella_patens_JGI_assembly_release_v1.1_and_COSMOSS_annotation_v1.6
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/ppa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.ppa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.ppa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.ppa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.ppa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppa/annotation.selected_transcript.exon_features.ppa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppa/annotation.selected_transcript.all_features.ppa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppa/annotation.all_transcripts.all_features.ppa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppa/annotation.all_transcripts.exon_features.ppa.gff3.gz
+      
+    - genome_id: Physcomitrella_patens_JGI_v3.3
+      name: Physcomitrella patens JGI v3.3
+      build_id: Physcomitrella_patens_JGI_v3.3
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ppa.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ppa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ppa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ppa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ppa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ppa/annotation.selected_transcript.exon_features.ppa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ppa/annotation.selected_transcript.all_features.ppa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ppa/annotation.all_transcripts.all_features.ppa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ppa/annotation.all_transcripts.exon_features.ppa.gff3.gz
+      
+    - genome_id: Picea_abies_ConGenIE_v1.0
+      name: Picea abies ConGenIE v1.0
+      build_id: Picea_abies_ConGenIE_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/pab.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.pab.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.pab.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.pab.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.pab.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/pab/annotation.selected_transcript.exon_features.pab.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/pab/annotation.selected_transcript.all_features.pab.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/pab/annotation.all_transcripts.all_features.pab.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/pab/annotation.all_transcripts.exon_features.pab.gff3.gz
+      
+    - genome_id: Populus_trichocarpa_JGI_assembly_release_v3.0_annotation_v3.0
+      name: Populus trichocarpa JGI assembly release v3.0, annotation v3.0
+      build_id: Populus_trichocarpa_JGI_assembly_release_v3.0_annotation_v3.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/ptr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.ptr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.ptr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.ptr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.ptr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ptr/annotation.selected_transcript.exon_features.ptr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ptr/annotation.selected_transcript.all_features.ptr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ptr/annotation.all_transcripts.all_features.ptr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ptr/annotation.all_transcripts.exon_features.ptr.gff3.gz
+      
+    - genome_id: Populus_trichocarpa_JGI_v3.1
+      name: Populus trichocarpa JGI v3.1
+      build_id: Populus_trichocarpa_JGI_v3.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ptr.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ptr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ptr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ptr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ptr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ptr/annotation.selected_transcript.exon_features.ptr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ptr/annotation.selected_transcript.all_features.ptr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ptr/annotation.all_transcripts.all_features.ptr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ptr/annotation.all_transcripts.exon_features.ptr.gff3.gz
+      
+    - genome_id: Prunus_persica_JGI_release_v1.0
+      name: Prunus persica JGI release v1.0
+      build_id: Prunus_persica_JGI_release_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/ppe.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.ppe.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.ppe.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.ppe.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.ppe.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppe/annotation.selected_transcript.exon_features.ppe.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppe/annotation.selected_transcript.all_features.ppe.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppe/annotation.all_transcripts.all_features.ppe.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ppe/annotation.all_transcripts.exon_features.ppe.gff3.gz
+      
+    - genome_id: Prunus_persica_JGI_v2.1
+      name: Prunus persica JGI v2.1
+      build_id: Prunus_persica_JGI_v2.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/ppe.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.ppe.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.ppe.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.ppe.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.ppe.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ppe/annotation.selected_transcript.exon_features.ppe.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ppe/annotation.selected_transcript.all_features.ppe.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ppe/annotation.all_transcripts.all_features.ppe.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ppe/annotation.all_transcripts.exon_features.ppe.gff3.gz
+      
+    - genome_id: Pyrus_bretschneideri_Pear_Genome_Project_v1.0
+      name: Pyrus bretschneideri Pear Genome Project v1.0
+      build_id: Pyrus_bretschneideri_Pear_Genome_Project_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/pbr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.pbr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.pbr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.pbr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.pbr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pbr/annotation.selected_transcript.exon_features.pbr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pbr/annotation.selected_transcript.all_features.pbr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pbr/annotation.all_transcripts.all_features.pbr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/pbr/annotation.all_transcripts.exon_features.pbr.gff3.gz
+      
+    - genome_id: Ricinus_communis_JCVI_1.0
+      name: Ricinus communis JCVI 1.0
+      build_id: Ricinus_communis_JCVI_1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/rco.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.rco.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.rco.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.rco.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.rco.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/rco/annotation.selected_transcript.exon_features.rco.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/rco/annotation.selected_transcript.all_features.rco.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/rco/annotation.all_transcripts.all_features.rco.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/rco/annotation.all_transcripts.exon_features.rco.gff3.gz
+      
+    - genome_id: Ricinus_communis_JGI_v0.1
+      name: Ricinus communis JGI v0.1
+      build_id: Ricinus_communis_JGI_v0.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/rco.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.rco.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.rco.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.rco.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.rco.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/rco/annotation.selected_transcript.exon_features.rco.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/rco/annotation.selected_transcript.all_features.rco.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/rco/annotation.all_transcripts.all_features.rco.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/rco/annotation.all_transcripts.exon_features.rco.gff3.gz
+      
+    - genome_id: Saccharum_spontaneum_v20190103
+      name: Saccharum spontaneum v20190103
+      build_id: Saccharum_spontaneum_v20190103
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ssp.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ssp.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ssp.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ssp.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ssp.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ssp/annotation.selected_transcript.exon_features.ssp.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ssp/annotation.selected_transcript.all_features.ssp.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ssp/annotation.all_transcripts.all_features.ssp.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ssp/annotation.all_transcripts.exon_features.ssp.gff3.gz
+      
+    - genome_id: Schrenkiella_parvula_Thellungiella_v2.0_TpV84
+      name: Schrenkiella parvula Thellungiella v2.0 (TpV84)
+      build_id: Schrenkiella_parvula_Thellungiella_v2.0_TpV84
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/spa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.spa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.spa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.spa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.spa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/spa/annotation.selected_transcript.exon_features.spa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/spa/annotation.selected_transcript.all_features.spa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/spa/annotation.all_transcripts.all_features.spa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/spa/annotation.all_transcripts.exon_features.spa.gff3.gz
+      
+    - genome_id: Selaginella_moellendorffii_JGI_v1.0
+      name: Selaginella moellendorffii JGI v1.0
+      build_id: Selaginella_moellendorffii_JGI_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/smo.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.smo.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.smo.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.smo.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.smo.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/smo/annotation.selected_transcript.exon_features.smo.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/smo/annotation.selected_transcript.all_features.smo.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/smo/annotation.all_transcripts.all_features.smo.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/smo/annotation.all_transcripts.exon_features.smo.gff3.gz
+      
+    - genome_id: Selaginella_moellendorffii_NCBIr100
+      name: Selaginella moellendorffii NCBIr100
+      build_id: Selaginella_moellendorffii_NCBIr100
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/smo.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.smo.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.smo.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.smo.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.smo.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/smo/annotation.selected_transcript.exon_features.smo.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/smo/annotation.selected_transcript.all_features.smo.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/smo/annotation.all_transcripts.all_features.smo.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/smo/annotation.all_transcripts.exon_features.smo.gff3.gz
+      
+    - genome_id: Setaria_italica_JGI_8.3X_chromosome-scale_assembly_release_2.0_annotation_version_2.1
+      name: Setaria italica JGI 8.3X chromosome-scale assembly release 2.0, annotation version 2.1
+      build_id: Setaria_italica_JGI_8.3X_chromosome-scale_assembly_release_2.0_annotation_version_2.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/sit.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.sit.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.sit.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.sit.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.sit.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sit/annotation.selected_transcript.exon_features.sit.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sit/annotation.selected_transcript.all_features.sit.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sit/annotation.all_transcripts.all_features.sit.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sit/annotation.all_transcripts.exon_features.sit.gff3.gz
+      
+    - genome_id: Setaria_italica_JGI_v2.2
+      name: Setaria italica JGI v2.2
+      build_id: Setaria_italica_JGI_v2.2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/sit.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.sit.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.sit.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.sit.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.sit.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sit/annotation.selected_transcript.exon_features.sit.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sit/annotation.selected_transcript.all_features.sit.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sit/annotation.all_transcripts.all_features.sit.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sit/annotation.all_transcripts.exon_features.sit.gff3.gz
+      
+    - genome_id: Solanum_lycopersicum_ITAG_2.3
+      name: Solanum lycopersicum ITAG 2.3
+      build_id: Solanum_lycopersicum_ITAG_2.3
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/sly.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.sly.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.sly.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.sly.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.sly.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/sly/annotation.selected_transcript.exon_features.sly.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/sly/annotation.selected_transcript.all_features.sly.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/sly/annotation.all_transcripts.all_features.sly.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/sly/annotation.all_transcripts.exon_features.sly.gff3.gz
+      
+    - genome_id: Solanum_lycopersicum_Sol_Genomics_itag2.4
+      name: Solanum lycopersicum Sol Genomics itag2.4
+      build_id: Solanum_lycopersicum_Sol_Genomics_itag2.4
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/sly.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.sly.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.sly.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.sly.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.sly.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sly/annotation.selected_transcript.exon_features.sly.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sly/annotation.selected_transcript.all_features.sly.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sly/annotation.all_transcripts.all_features.sly.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sly/annotation.all_transcripts.exon_features.sly.gff3.gz
+      
+    - genome_id: Solanum_tuberosum_ITAG_001
+      name: Solanum tuberosum ITAG 001
+      build_id: Solanum_tuberosum_ITAG_001
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/stu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.stu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.stu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.stu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.stu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/stu/annotation.selected_transcript.exon_features.stu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/stu/annotation.selected_transcript.all_features.stu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/stu/annotation.all_transcripts.all_features.stu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/stu/annotation.all_transcripts.exon_features.stu.gff3.gz
+      
+    - genome_id: Solanum_tuberosum_JGI_v4.03
+      name: Solanum tuberosum JGI v4.03
+      build_id: Solanum_tuberosum_JGI_v4.03
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/stu.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.stu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.stu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.stu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.stu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/stu/annotation.selected_transcript.exon_features.stu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/stu/annotation.selected_transcript.all_features.stu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/stu/annotation.all_transcripts.all_features.stu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/stu/annotation.all_transcripts.exon_features.stu.gff3.gz
+      
+    - genome_id: Sorghum_bicolor_JGI_1.4
+      name: Sorghum bicolor JGI 1.4
+      build_id: Sorghum_bicolor_JGI_1.4
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Genomes/sbi.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.all_transcripts.sbi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/Fasta/transcripts.selected_transcript.sbi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.all_transcripts.sbi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/TranscriptMapping/transcript_mapping.selected_transcript.sbi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sbi/annotation.selected_transcript.exon_features.sbi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sbi/annotation.selected_transcript.all_features.sbi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sbi/annotation.all_transcripts.all_features.sbi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_03/GFF/sbi/annotation.all_transcripts.exon_features.sbi.gff3.gz
+      
+    - genome_id: Sorghum_bicolor_JGI_v3.1
+      name: Sorghum bicolor JGI v3.1
+      build_id: Sorghum_bicolor_JGI_v3.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/sbi.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.sbi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.sbi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.sbi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.sbi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sbi/annotation.selected_transcript.exon_features.sbi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sbi/annotation.selected_transcript.all_features.sbi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sbi/annotation.all_transcripts.all_features.sbi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/sbi/annotation.all_transcripts.exon_features.sbi.gff3.gz
+      
+    - genome_id: Spirodela_polyrhiza_JGI_v2.0
+      name: Spirodela polyrhiza JGI v2.0
+      build_id: Spirodela_polyrhiza_JGI_v2.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/spo.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.spo.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.spo.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.spo.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.spo.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/spo/annotation.selected_transcript.exon_features.spo.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/spo/annotation.selected_transcript.all_features.spo.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/spo/annotation.all_transcripts.all_features.spo.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/spo/annotation.all_transcripts.exon_features.spo.gff3.gz
+      
+    - genome_id: Tarenaya_hassleriana_RefSeq_v1
+      name: Tarenaya hassleriana RefSeq v1
+      build_id: Tarenaya_hassleriana_RefSeq_v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/tha.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.tha.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.tha.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.tha.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.tha.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tha/annotation.selected_transcript.exon_features.tha.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tha/annotation.selected_transcript.all_features.tha.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tha/annotation.all_transcripts.all_features.tha.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tha/annotation.all_transcripts.exon_features.tha.gff3.gz
+      
+    - genome_id: Thellungiella_parvula_TpV84
+      name: Thellungiella parvula TpV84
+      build_id: Thellungiella_parvula_TpV84
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/tpa.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.tpa.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.tpa.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.tpa.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.tpa.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tpa/annotation.selected_transcript.exon_features.tpa.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tpa/annotation.selected_transcript.all_features.tpa.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tpa/annotation.all_transcripts.all_features.tpa.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tpa/annotation.all_transcripts.exon_features.tpa.gff3.gz
+      
+    - genome_id: Theobroma_cacao_D._Gilbert_public_gene_set_8_Mar_2012_on_assembly_v1.1
+      name: Theobroma cacao D. Gilbert public gene set 8 Mar 2012 on assembly v1.1
+      build_id: Theobroma_cacao_D._Gilbert_public_gene_set_8_Mar_2012_on_assembly_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/tca.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.tca.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.tca.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.tca.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.tca.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tca/annotation.selected_transcript.exon_features.tca.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tca/annotation.selected_transcript.all_features.tca.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tca/annotation.all_transcripts.all_features.tca.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/tca/annotation.all_transcripts.exon_features.tca.gff3.gz
+      
+    - genome_id: Theobroma_cacao_RefSeq_v1.1
+      name: Theobroma cacao RefSeq v1.1
+      build_id: Theobroma_cacao_RefSeq_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/tca.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.tca.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.tca.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.tca.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.tca.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tca/annotation.selected_transcript.exon_features.tca.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tca/annotation.selected_transcript.all_features.tca.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tca/annotation.all_transcripts.all_features.tca.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tca/annotation.all_transcripts.exon_features.tca.gff3.gz
+      
+    - genome_id: Trifolium_pratense_JGI_v2
+      name: Trifolium pratense JGI v2
+      build_id: Trifolium_pratense_JGI_v2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/tpr.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.tpr.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.tpr.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.tpr.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.tpr.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tpr/annotation.selected_transcript.exon_features.tpr.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tpr/annotation.selected_transcript.all_features.tpr.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tpr/annotation.all_transcripts.all_features.tpr.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/tpr/annotation.all_transcripts.exon_features.tpr.gff3.gz
+      
+    - genome_id: Triticum_aestivum_Ensembl_Plants_TGACv1
+      name: Triticum aestivum Ensembl Plants TGACv1
+      build_id: Triticum_aestivum_Ensembl_Plants_TGACv1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Genomes/tae.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.all_transcripts.tae.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/Fasta/transcripts.selected_transcript.tae.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.all_transcripts.tae.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/TranscriptMapping/transcript_mapping.selected_transcript.tae.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/tae/annotation.selected_transcript.exon_features.tae.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/tae/annotation.selected_transcript.all_features.tae.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/tae/annotation.all_transcripts.all_features.tae.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04/GFF/tae/annotation.all_transcripts.exon_features.tae.gff3.gz
+      
+    - genome_id: Triticum_aestivum_IWGSC1.1
+      name: Triticum aestivum IWGSC1.1
+      build_id: Triticum_aestivum_IWGSC1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/tae.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.tae.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.tae.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.tae.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.tae.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/tae/annotation.selected_transcript.exon_features.tae.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/tae/annotation.selected_transcript.all_features.tae.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/tae/annotation.all_transcripts.all_features.tae.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/tae/annotation.all_transcripts.exon_features.tae.gff3.gz
+      
+    - genome_id: Triticum_turgidum_Svevo_v1.0
+      name: Triticum turgidum Svevo v1.0
+      build_id: Triticum_turgidum_Svevo_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/ttu.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.ttu.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.ttu.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.ttu.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.ttu.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ttu/annotation.selected_transcript.exon_features.ttu.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ttu/annotation.selected_transcript.all_features.ttu.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ttu/annotation.all_transcripts.all_features.ttu.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/ttu/annotation.all_transcripts.exon_features.ttu.gff3.gz
+      
+    - genome_id: Utricularia_gibba_CoGe_v4
+      name: Utricularia gibba CoGe v4
+      build_id: Utricularia_gibba_CoGe_v4
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/ugi.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.ugi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.ugi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.ugi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.ugi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ugi/annotation.selected_transcript.exon_features.ugi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ugi/annotation.selected_transcript.all_features.ugi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ugi/annotation.all_transcripts.all_features.ugi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/ugi/annotation.all_transcripts.exon_features.ugi.gff3.gz
+      
+    - genome_id: Vigna_radiata_var._radiata_LIS_v6
+      name: Vigna radiata var. radiata LIS v6
+      build_id: Vigna_radiata_var._radiata_LIS_v6
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/vra.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.vra.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.vra.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.vra.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.vra.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/vra/annotation.selected_transcript.exon_features.vra.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/vra/annotation.selected_transcript.all_features.vra.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/vra/annotation.all_transcripts.all_features.vra.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/vra/annotation.all_transcripts.exon_features.vra.gff3.gz
+      
+    - genome_id: Vitis_vinifera_JGI_12xMarch2010
+      name: Vitis vinifera JGI 12xMarch2010
+      build_id: Vitis_vinifera_JGI_12xMarch2010
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/vvi.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.vvi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.vvi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.vvi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.vvi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/vvi/annotation.selected_transcript.exon_features.vvi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/vvi/annotation.selected_transcript.all_features.vvi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/vvi/annotation.all_transcripts.all_features.vvi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/vvi/annotation.all_transcripts.exon_features.vvi.gff3.gz
+      
+    - genome_id: Vitis_vinifera_genescope_v1
+      name: Vitis vinifera genescope v1
+      build_id: Vitis_vinifera_genescope_v1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/vvi.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.vvi.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.vvi.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.vvi.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.vvi.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/vvi/annotation.selected_transcript.exon_features.vvi.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/vvi/annotation.selected_transcript.all_features.vvi.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/vvi/annotation.all_transcripts.all_features.vvi.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/vvi/annotation.all_transcripts.exon_features.vvi.gff3.gz
+      
+    - genome_id: Zea_mays_B73_5b.60
+      name: Zea mays B73 5b.60
+      build_id: Zea_mays_B73_5b.60
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/zma.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.all_transcripts.zma.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Fasta/transcripts.selected_transcript.zma.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.all_transcripts.zma.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/TranscriptMapping/transcript_mapping.selected_transcript.zma.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/zma/annotation.selected_transcript.exon_features.zma.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/zma/annotation.selected_transcript.all_features.zma.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/zma/annotation.all_transcripts.all_features.zma.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/zma/annotation.all_transcripts.exon_features.zma.gff3.gz
+      
+    - genome_id: Zea_mays_B73_AGP_v4.0
+      name: Zea mays B73 AGP v4.0
+      build_id: Zea_mays_B73_AGP_v4.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/zma.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.zma.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.zma.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.zma.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.zma.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma/annotation.selected_transcript.exon_features.zma.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma/annotation.selected_transcript.all_features.zma.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma/annotation.all_transcripts.all_features.zma.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma/annotation.all_transcripts.exon_features.zma.gff3.gz
+      
+    - genome_id: Zea_mays_PH207_v1.0
+      name: Zea mays PH207 v1.0
+      build_id: Zea_mays_PH207_v1.0
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/zma-ph207.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.zma-ph207.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.zma-ph207.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.zma-ph207.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.zma-ph207.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma-ph207/annotation.selected_transcript.exon_features.zma-ph207.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma-ph207/annotation.selected_transcript.all_features.zma-ph207.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma-ph207/annotation.all_transcripts.all_features.zma-ph207.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zma-ph207/annotation.all_transcripts.exon_features.zma-ph207.gff3.gz
+      
+    - genome_id: Ziziphus_jujuba_RefSeq_v1.1
+      name: Ziziphus jujuba RefSeq v1.1
+      build_id: Ziziphus_jujuba_RefSeq_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Genomes/zju.con.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.all_transcripts.zju.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/Fasta/transcripts.selected_transcript.zju.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.all_transcripts.zju.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/TranscriptMapping/transcript_mapping.selected_transcript.zju.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/zju/annotation.selected_transcript.exon_features.zju.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/zju/annotation.selected_transcript.all_features.zju.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/zju/annotation.all_transcripts.all_features.zju.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_04/GFF/zju/annotation.all_transcripts.exon_features.zju.gff3.gz
+      
+    - genome_id: Zostera_marina_JGI_v2.2
+      name: Zostera marina JGI v2.2
+      build_id: Zostera_marina_JGI_v2.2
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/zosmarina.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.zosmarina.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.zosmarina.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.zosmarina.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.zosmarina.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zosmarina/annotation.selected_transcript.exon_features.zosmarina.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zosmarina/annotation.selected_transcript.all_features.zosmarina.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zosmarina/annotation.all_transcripts.all_features.zosmarina.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zosmarina/annotation.all_transcripts.exon_features.zosmarina.gff3.gz
+      
+    - genome_id: Zoysia_japonica_ssp._nagirizaki_Zoysia_Genome_Database_v1.1
+      name: Zoysia japonica ssp. nagirizaki Zoysia Genome Database v1.1
+      build_id: Zoysia_japonica_ssp._nagirizaki_Zoysia_Genome_Database_v1.1
+      genome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Genomes/zjn.fasta.gz
+      all_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.all_transcripts.zjn.fasta.gz
+      selected_tx_transcriptome: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/Fasta/transcripts.selected_transcript.zjn.fasta.gz
+      all_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.all_transcripts.zjn.csv.gz
+      selected_tx_tx2gene: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/TranscriptMapping/transcript_mapping.selected_transcript.zjn.csv.gz
+      gff_selected_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zjn/annotation.selected_transcript.exon_features.zjn.gff3.gz 
+      gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zjn/annotation.selected_transcript.all_features.zjn.gff3.gz
+      gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zjn/annotation.all_transcripts.all_features.zjn.gff3.gz
+      gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_monocots_04_5/GFF/zjn/annotation.all_transcripts.exon_features.zjn.gff3.gz
+      
+
+data_managers:
+    ## Load the transcriptome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/data_manager_fetch_genome_all_fasta_dbkey/0.0.2
+      params:
+        - 'dbkey_source|dbkey_source_selector': 'new'
+        - 'dbkey_source|dbkey': '{{ item.genome_id }}'
+        - 'reference_source|reference_source_selector': 'url'
+        - 'reference_source|user_url': '{{ item.all_tx_transcriptome }}'
+        - 'sequence_name': '{{ item.name }} - Transcripts'
+        - 'sequence_id': '{{ item.build_id }}_all_tx_transcriptome'
+        - 'sorting|sorting_selector': 'as_is'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - all_fasta
+
+
+
+    # Build Salmon index using the transcriptome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_salmon_index_builder/salmon_index_builder_data_manager/0.11.3
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}_all_tx_transcriptome'
+        - 'sequence_name': '{{ item.name }}'
+        - 'sequence_id': '{{ item.build_id }}_all_tx_transcriptome_q6'
+        - 'kmer_size': '31'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - salmon_indexes_versioned
+
+    # Build kallisto index using the transcriptome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_kallisto_index_builder/kallisto_index_builder_data_manager/0.43.1
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}_all_tx_transcriptome'
+        - 'sequence_name': '{{ item.name }}'
+        - 'sequence_id': '{{ item.build_id }}_all_tx_transcriptome'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - kallisto_indexes
+
