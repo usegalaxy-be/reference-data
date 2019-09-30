@@ -13,7 +13,7 @@ These steps are scripted in [this repo](https://github.com/ieguinoa/galaxy_data_
 
 
 
-1. **Reference data from external sources:**
+2. **Reference data from external sources:**
 
 Genomes files obtained from sources other than PLAZA usually require some preprocessing to make them. Besides, not always all files are provided by the external sources so the extra required files need to be created before the DMs can be executed. These preprocessing steps are also scripted by us and can be found [here](https://github.com/ieguinoa/genomes_to_galaxy). We provide in this repo the input table (external_genomes_usegalaxy_be.tab) used to run it.
 
