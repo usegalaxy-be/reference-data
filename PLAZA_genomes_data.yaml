@@ -1592,7 +1592,7 @@ data_managers:
 
 
     # Build bowtie2 index using the genome fasta
-    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/bowtie2_index_builder_data_manager/2.3.0
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/bowtie2_index_builder_data_manager/2.3.4.3
       params:
         - 'all_fasta_source': '{{ item.build_id }}'
         - 'sequence_name': '{{ item.name }}'
