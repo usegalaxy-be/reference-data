@@ -1571,7 +1571,7 @@ data_managers:
         - 'dbkey': '{{ item.genome_id }}'
         - 'reference_source|reference_source_selector': 'url'
         - 'reference_source|user_url': '{{ item.gff_selected_tx_all_features }}'
-        - 'sequence_name': '{{ item.name }} - Selected transcripts - All features'
+        - 'sequence_name': '{{ item.name }} - Representative (longest) transcripts only - All features'
         - 'sequence_id': '{{ item.build_id }}_gff_selected_tx_all_features'
       items: "{{ genomes }}"
       data_table_reload:
@@ -1622,4 +1622,15 @@ data_managers:
       items: "{{ genomes }}"
       data_table_reload:
         - hisat2_indexes
+
+    # Build bwa index using the genome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.3
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'sequence_name': '{{ item.name }}'
+        - 'sequence_id': '{{ item.build_id }}'
+        - 'index_algorithm': 'bwtsw'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - bwa_mem_indexes
 
