@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-# Get all genomes and annotations available in PLAZA data warehouse and update into refgenie
+# Create a script to retrieve all genomes and annotations available in the PLAZA data warehouse
+# and update local refgenie configuration to install and build derived assets
 
 
 import os
@@ -41,10 +42,10 @@ def fetch_PLAZA_list():
         for item in plaza_list:
             if item['eco_type'] == None:
                 name = "{common_name} {version}".format(**item)
-                gid = "{common_name} {version}".format(**item).replace(' ','_').replace(',', '').replace('(','').replace(')','')
+                gid = "{common_name} {version}".format(**item).replace(' ','_').replace(',', '').replace('(','').replace(')','').replace('.','_')
             else:
                 name = "{common_name} {eco_type} {version}".format(**item)
-                gid = "{common_name} {eco_type} {version}".format(**item).replace(' ','_').replace(',', '').replace('(','').replace(')','')
+                gid = "{common_name} {eco_type} {version}".format(**item).replace(' ','_').replace(',', '').replace('(','').replace(')','').replace('.','_')
             if name in builds:
                 print("\tGenome for {} already captured".format(item['common_name']))
                 continue
@@ -95,18 +96,26 @@ def fetch_PLAZA_list():
     return builds
 
 
+def write_refgenie_config(genomes, script_path, config_path):
+    with open(script_path, 'w') as script_out:
+        script_out.write('#!/bin/bash\n')
+        for genome_name,genome in genomes.items():
+            # print(genome)
+            #TODO PARSE GENOME IDS AND ALL TO REMOVE . WHEN DEFINING THE ASSET NAME
+            script_out.write('wget ' + genome['genome'] + ' -O ' + genome['build_id'] + '.genome.fasta.gz\n')
+            script_out.write('refgenie build ' + genome['build_id'] + '/fasta --files fasta=' + genome['build_id']+ '.genome.fasta.gz'  +' -c ' + config_path + '\n')
+
 
 
 if __name__ == '__main__':
-
-
     parser = argparse.ArgumentParser(description='Configure refgenie with PLAZA genomes')
     parser.add_argument('--config_path', dest='genome_conf_path', help='refgenie genome_conf file path')
     args = parser.parse_args()
 
     if not os.path.isfile(args.genome_conf_path):
         #run refgenie init -config config already exists
-        print("run: refgenie build  -c args.genome_conf_path")
-    
-    genomes_dict = fetch_PLAZA_list()
+        print("TODO: run: refgenie init -c args.genome_conf_path")
 
+    script_path = './refgenie_conf.sh'
+    genomes_dict = fetch_PLAZA_list()
+    write_refgenie_config(genomes_dict, script_path, args.genome_conf_path)
