@@ -41,11 +41,11 @@ def fetch_PLAZA_list():
     for plaza_list in call_results:
         for item in plaza_list:
             if item['eco_type'] == None:
-                name = "{common_name} {version}".format(**item)
-                gid = "{common_name} {version}".format(**item).replace(' ','_').replace(',', '').replace('(','').replace(')','').replace('.','_')
+                name = "{common_name} {version}".format(**item).replace(',','-')
+                gid = "{common_name} {version}".format(**item).strip().replace(' ','_').replace(',', '').replace('(','').replace(')','').replace('.','_').replace('/','_')
             else:
-                name = "{common_name} {eco_type} {version}".format(**item)
-                gid = "{common_name} {eco_type} {version}".format(**item).replace(' ','_').replace(',', '').replace('(','').replace(')','').replace('.','_')
+                name = "{common_name} {eco_type} {version}".format(**item).replace(',','-')
+                gid = "{common_name} {eco_type} {version}".format(**item).strip().replace(' ','_').replace(',', '').replace('(','').replace(')','').replace('.','_').replace('/','.')
             if name in builds:
                 print("\tGenome for {} already captured".format(item['common_name']))
                 continue
@@ -105,11 +105,30 @@ def write_refgenie_config(genomes, script_path, config_path):
             script_out.write('wget ' + genome['genome'] + ' -O ' + genome['build_id'] + '.genome.fasta.gz\n')
             script_out.write('refgenie build ' + genome['build_id'] + '/fasta --files fasta=' + genome['build_id']+ '.genome.fasta.gz'  +' -c ' + config_path + '\n')
 
+def write_genomes_asset_pep(genomes, script_path):
+    with open(script_path, 'w') as script_out:
+        script_out.write('genome,asset,genome_description\n')
+        for genome_name,genome in genomes.items():
+            # print(genome)
+            #TODO PARSE GENOME IDS AND ALL TO REMOVE . WHEN DEFINING THE ASSET NAME
+            # script_out.write('wget ' + genome['genome'] + ' -O ' + genome['build_id'] + '.genome.fasta.gz\n')
+            # script_out.write('refgenie build ' + genome['build_id'] + '/fasta --files fasta=' + genome['build_id']+ '.genome.fasta.gz'  +' -c ' + config_path + '\n')
+            script_out.write(genome['build_id'] + ',fasta,' + genome['name']+ '\n')
 
+def write_recipes_inputs(genomes, script_path):
+    with open(script_path, 'w') as script_out:
+        script_out.write('sample_name,input_id,input_value,input_type,md5\n')
+        for genome_name,genome in genomes.items():
+            # print(genome)
+            #TODO PARSE GENOME IDS AND ALL TO REMOVE . WHEN DEFINING THE ASSET NAME
+            # script_out.write('wget ' + genome['genome'] + ' -O ' + genome['build_id'] + '.genome.fasta.gz\n')
+            # script_out.write('refgenie build ' + genome['build_id'] + '/fasta --files fasta=' + genome['build_id']+ '.genome.fasta.gz'  +' -c ' + config_path + '\n')
+            script_out.write(genome['build_id'] + '-fasta,fasta,' + genome['genome']+ ',files,\n')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Configure refgenie with PLAZA genomes')
     parser.add_argument('--config_path', dest='genome_conf_path', help='refgenie genome_conf file path')
+    parser.add_argument('--genomes_assets_pep', dest='genomes_assets_pep', default=False, action='store_true')
     args = parser.parse_args()
 
     if not os.path.isfile(args.genome_conf_path):
@@ -117,5 +136,11 @@ if __name__ == '__main__':
         print("TODO: run: refgenie init -c args.genome_conf_path")
 
     script_path = './refgenie_conf.sh'
+    genomes_assets_pep_path = './assets.csv'
+    recipe_inputs = './recipe_inputs.csv'
     genomes_dict = fetch_PLAZA_list()
-    write_refgenie_config(genomes_dict, script_path, args.genome_conf_path)
+    if args.genomes_assets_pep:
+        write_genomes_asset_pep(genomes_dict, genomes_assets_pep_path)
+        write_recipes_inputs(genomes_dict,recipe_inputs)
+    else:
+        write_refgenie_config(genomes_dict, script_path, args.genome_conf_path)
