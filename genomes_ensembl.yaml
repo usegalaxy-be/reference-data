@@ -19,11 +19,13 @@ genomes:
       cdna_fasta_url: http://ftp.ensembl.org/pub/release-104/fasta/drosophila_melanogaster/cdna/Drosophila_melanogaster.BDGP6.32.cdna.all.fa.gz
       annotation_id: drosophila_melanogaster_BDGP6_ensembl_r104_gff3
 
-    - genome_id: escherichia_coli_ASM160652v1_r104
-      name:  Escherichia coli (ASM160652v1) - Ensembl release 104
-      build_id: escherichia_coli_ASM160652v1_ensembl_r104_genome
-      fasta_url:  dna/Escherichia_coli_gca_001606525.ASM160652v1.dna.toplevel.fa.gz
+    - dbkey: escherichia_coli_ASM160652v1_ensembl_r51
+      name:  Escherichia coli (ASM160652v1) - Ensembl release 51
+      build_id: escherichia_coli_ASM160652v1_ensembl_r51_genome
+      fasta_url:  ftp://ftp.ensemblgenomes.org/pub/release-51/bacteria/fasta/bacteria_12_collection/escherichia_coli_gca_001606525/dna/Escherichia_coli_gca_001606525.ASM160652v1.dna.toplevel.fa.gz
+      annotation_id: escherichia_coli_ASM160652v1_ensembl_r51_gff3
       annotation_url: ftp://ftp.ensemblgenomes.org/pub/bacteria/release-51/gff3/bacteria_12_collection/escherichia_coli_gca_001606525/Escherichia_coli_gca_001606525.ASM160652v1.49.gff3.gz
+      cdna_id: escherichia_coli_ASM160652v1_ensembl_r51_cdna
       cdna_fasta_url: ftp://ftp.ensemblgenomes.org/pub/bacteria/release-51/fasta/bacteria_12_collection/escherichia_coli_gca_001606525/cdna/Escherichia_coli_gca_001606525.ASM160652v1.cdna.all.fa.gz
 
     - dbkey: zebrafish_GRCz11_ensembl_r104
@@ -43,9 +45,9 @@ genomes:
       annotation_url: http://ftp.ensembl.org/pub/release-104/gff3/mus_musculus/Mus_musculus.GRCm39.104.gff3.gz
       annotation_id: mus_musculus_GRCm39_ensembl_r104_gff3
 
-     PLAZA
+     #PLAZA
     - dbkey: Arabidopsis_thaliana_COL-0_TAIR10 
-     genome_id: Arabidopsis_thaliana_COL-0_TAIR10
+      genome_id: Arabidopsis_thaliana_COL-0_TAIR10
       name: Arabidopsis thaliana COL-0 TAIR10
       build_id: Arabidopsis_thaliana_COL-0_TAIR10_genome
       fasta_url: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/Genomes/ath.con.gz
@@ -61,7 +63,7 @@ genomes:
       gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.all_transcripts.exon_features.ath.gff3.gz
 
    # UCSC - genomes are the same as Ensembl but are named chrX instead of X. 
-     Gene models and names in the knownGene file should be the same as the ones in Emsembl cDNA file
+     #Gene models and names in the knownGene file should be the same as the ones in Emsembl cDNA file
    - dbkey: human_dec2013_hg38_ucsc
       name: Human Dec. 2013 (GRCh38/hg38) - UCSC
       build_id: human_dec2013_hg38_ucsc_genome
@@ -114,12 +116,31 @@ data_managers:
         - bowtie2_indexes
         #- tophat2_indexes
 
-  ##toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/data_manager/rna_star_index_builder/0.0.7
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/2.7.4a
       params:
         - 'all_fasta_source': '{{ item.build_id }}'
         - 'name': '{{ item.name }} - splice junctions NOT included'
         - 'GTFconditional|GTFselect': 'withoutGTF'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - rnastar_index2x_versioned
+
+    # this creates indexes for the older versions of star
+    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/0.0.5
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'name': '{{ item.name }} - splice junctions NOT included'
+        - 'GTFconditional|GTFselect': 'withoutGTF'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - rnastar_index2
+
+    - id: testtoolshed.g2.bx.psu.edu/repos/ieguinoa/data_manager_star_index_custom/rna_star_index_builder_data_manager_custom/2.7.4a
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'name': '{{ item.name }} - splice junctions included'
+        - 'GTFconditional|GTFselect': 'withGTF'
+        - 'GTFconditional|GTF_source_conditional|all_gff_source': '{{ item.annotation_id }}'
       items: "{{ genomes }}"
       data_table_reload:
         - rnastar_index2
@@ -147,8 +168,8 @@ data_managers:
       data_table_reload:
         - bwa_mem_indexes
 
-     Load the transcriptome fasta
-    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/data_manager_fetch_genome_all_fasta_dbkey/0.0.2
+     #Load the transcriptome fasta
+    #- id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/data_manager_fetch_genome_all_fasta_dbkey/0.0.2
     - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/data_manager_fetch_genome_all_fasta_dbkey/0.0.4
       params:
         #NEED TO CREATE A NEW DBKEY because there is only 1 .len file associated with a dbkey so, otherwise the .len file will be that of the transcriptome and not the genome 
@@ -176,16 +197,6 @@ data_managers:
       items: "{{ genomes }}"
       data_table_reload:
         - all_gff
-
-    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/2.7.4a
-      #toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/data_manager/rna_star_index_builder/0.0.7
-      params:
-        - 'all_fasta_source': '{{ item.build_id }}'
-        - 'name': '{{ item.name }} - splice junctions NOT included'
-        - 'GTFconditional|GTFselect': 'withGTF'
-      items: "{{ genomes }}"
-      data_table_reload:
-        - rnastar_index2
 
     # Build Salmon index using the transcriptome fasta
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_salmon_index_builder/salmon_index_builder_data_manager/0.11.3
