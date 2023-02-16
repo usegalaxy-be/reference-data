@@ -19,6 +19,7 @@ These steps are scripted in [this repo](https://github.com/ieguinoa/galaxy_data_
 
 We also maintain a set of species for which we fetch the reference data (genome, cDNA and annotation) from UCSC and/or Ensembl, and for which we generate all indexes available for all tools at UseGalaxy.be.
 These species are:
+
     - Human (GRCh38/hg38) - Ensembl release 104
     - Mouse (Mus musculus GRCm39) - Ensembl release 104
     - Zebrafish (Danio rerio - GRCz11) - Ensembl release 104
