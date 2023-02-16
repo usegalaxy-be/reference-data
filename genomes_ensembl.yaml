@@ -32,6 +32,7 @@ genomes:
       name: Zebrafish (Danio rerio - GRCz11) - Ensembl release 104
       build_id: zebrafish_GRCz11_ensembl_r104_genome
       fasta_url: http://ftp.ensembl.org/pub/release-104/fasta/danio_rerio/dna/Danio_rerio.GRCz11.dna.toplevel.fa.gz
+      annotation_id: zebrafish_GRCz11_ensembl_r104_gff3
       annotation_url: http://ftp.ensembl.org/pub/release-104/gff3/danio_rerio/Danio_rerio.GRCz11.104.gff3.gz
       cdna_id: zebrafish_GRCz11_ensembl_r104_cdna
       cdna_fasta_url: http://ftp.ensembl.org/pub/release-104/fasta/danio_rerio/cdna/Danio_rerio.GRCz11.cdna.all.fa.gz
@@ -45,7 +46,17 @@ genomes:
       annotation_url: http://ftp.ensembl.org/pub/release-104/gff3/mus_musculus/Mus_musculus.GRCm39.104.gff3.gz
       annotation_id: mus_musculus_GRCm39_ensembl_r104_gff3
 
-     #PLAZA
+    - dbkey: Zea_mays_B73_v5_ensembl_r52
+      name: Zea mays (B73 v5.0) - Ensembl release 52
+      build_id: Zea_mays_B73_v5_ensembl_r52_genome
+      cdna_id: Zea_mays_B73_v5_ensembl_r52_cdna
+      fasta_url: http://ftp.ensemblgenomes.org/pub/plants/release-52/fasta/zea_mays/dna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.dna.toplevel.fa.gz
+      cdna_fasta_url: http://ftp.ensemblgenomes.org/pub/plants/release-52/fasta/zea_mays/cdna/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.cdna.all.fa.gz
+      annotation_url: http://ftp.ensemblgenomes.org/pub/plants/release-52/gff3/zea_mays/Zea_mays.Zm-B73-REFERENCE-NAM-5.0.52.chr.gff3.gz
+      annotation_id: Zea_mays_B73_v5_ensembl_r52_gff3
+
+
+     ###PLAZA
     - dbkey: Arabidopsis_thaliana_COL-0_TAIR10 
       genome_id: Arabidopsis_thaliana_COL-0_TAIR10
       name: Arabidopsis thaliana COL-0 TAIR10
@@ -61,6 +72,15 @@ genomes:
       gff_selected_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.selected_transcript.all_features.ath.gff3.gz
       gff_all_tx_all_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.all_transcripts.all_features.ath.gff3.gz
       gff_all_tx_exon_features: ftp://ftp.psb.ugent.be/pub/plaza/plaza_public_dicots_03/GFF/ath/annotation.all_transcripts.exon_features.ath.gff3.gz
+
+      ## Marchantia genome 
+    - dbkey: MpTak_v6
+      name: Marchantia polymorpha v6
+      build_id: MpTak_v6_genome
+      fasta_url: https://marchantia.info/download/MpTak_v6.1/MpTak_v6.1r1.gff.gz
+      annotation_url: https://marchantia.info/download/MpTak_v6.1/MpTak_v6.1r1.gff.gz
+      annotation_id: MpTak_v6_gff3
+
 
    # UCSC - genomes are the same as Ensembl but are named chrX instead of X. 
      #Gene models and names in the knownGene file should be the same as the ones in Emsembl cDNA file
@@ -104,7 +124,7 @@ data_managers:
         - __dbkeys__
 
 
-     #Build bowtie2 index using the genome fasta
+     ##Build bowtie2 index using the genome fasta
     - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/bowtie2_index_builder_data_manager/2.3.5.1+galaxy1
       params:
         - 'all_fasta_source': '{{ item.build_id }}'
@@ -114,7 +134,7 @@ data_managers:
       data_table_reload:
         # Bowtie creates indices for Bowtie and TopHat
         - bowtie2_indexes
-        #- tophat2_indexes
+        ####- tophat2_indexes
 
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/2.7.4a
       params:
@@ -125,7 +145,7 @@ data_managers:
       data_table_reload:
         - rnastar_index2x_versioned
 
-    # this creates indexes for the older versions of star
+    ## this creates indexes for the older versions of star
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/0.0.5
       params:
         - 'all_fasta_source': '{{ item.build_id }}'
@@ -135,15 +155,6 @@ data_managers:
       data_table_reload:
         - rnastar_index2
 
-    - id: testtoolshed.g2.bx.psu.edu/repos/ieguinoa/data_manager_star_index_custom/rna_star_index_builder_data_manager_custom/2.7.4a
-      params:
-        - 'all_fasta_source': '{{ item.build_id }}'
-        - 'name': '{{ item.name }} - splice junctions included'
-        - 'GTFconditional|GTFselect': 'withGTF'
-        - 'GTFconditional|GTF_source_conditional|all_gff_source': '{{ item.annotation_id }}'
-      items: "{{ genomes }}"
-      data_table_reload:
-        - rnastar_index2
 
     #Build HISAT2 INDEX
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_hisat2_index_builder/hisat2_index_builder_data_manager/2.0.5
@@ -157,8 +168,8 @@ data_managers:
 
     # Build bwa index using the genome fasta
     #- id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.3 
-    #- id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.5
-    - id: bwa_mem_index_builder_data_manager 
+    #- id: bwa_mem_index_builder_data_manager 
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.5
       params:
         - 'all_fasta_source': '{{ item.build_id }}'
         - 'sequence_name': '{{ item.name }}'
@@ -197,8 +208,19 @@ data_managers:
       items: "{{ genomes }}"
       data_table_reload:
         - all_gff
-
+    
     # Build Salmon index using the transcriptome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_salmon_index_builder/salmon_index_builder_data_manager/1.3.0
+      params:
+        - 'all_fasta_source': '{{ item.cdna_id }}'
+        - 'sequence_name': '{{ item.name }} - cDNA'
+        - 'sequence_id': '{{ item.cdna_id }}'
+        - 'kmer_size': '31'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - salmon_indexes_versioned
+
+    ## Build Salmon index using the transcriptome fasta
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_salmon_index_builder/salmon_index_builder_data_manager/0.11.3
       params:
         - 'all_fasta_source': '{{ item.cdna_id }}'
@@ -208,8 +230,8 @@ data_managers:
       items: "{{ genomes }}"
       data_table_reload:
         - salmon_indexes_versioned
-
-    # Build kallisto index using the transcriptome fasta
+    
+    ## Build kallisto index using the transcriptome fasta
     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_kallisto_index_builder/kallisto_index_builder_data_manager/0.43.1
       params:
         - 'all_fasta_source': '{{ item.cdna_id }}'
@@ -219,4 +241,13 @@ data_managers:
       data_table_reload:
         - kallisto_indexes
 
-
+    ## star custom uses the GFF so it needs to go after the GFF load
+    - id: testtoolshed.g2.bx.psu.edu/repos/ieguinoa/data_manager_star_index_custom/rna_star_index_builder_data_manager_custom/2.7.4a
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'name': '{{ item.name }} - splice junctions included'
+        - 'GTFconditional|GTFselect': 'withGTF'
+        - 'GTFconditional|GTF_source_conditional|all_gff_source': '{{ item.annotation_id }}'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - rnastar_index2

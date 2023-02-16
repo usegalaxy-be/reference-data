@@ -3,16 +3,113 @@ genomes:
       name: Human Dec. 2013 (GRCh38/hg38)
       build_id: human_dec2013_hg38_ucsc_genome
       ucsc_key: hg38
+      fasta_url: https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chromFa.tar.gz
+
+    - dbkey: dm6_UCSC_2014_10_14_BDGP_6_plus_ISO1_MT
+      name: Drosophila melanogaster Aug. 2014 (BDGP Release 6 + ISO1 MT/dm6)
+      build_id: dm6
+      fasta_url: http://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.fa.gz
+      #  not sure about this mrna file, dont really 
+      #cdna_dbkey: dm6_UCSC_2014_10_14_BDGP_6_plus_ISO1_MT_mrna
+      #cdna_build_id: dm6_UCSC_2014_10_14_BDGP_6_plus_ISO1_MT_mrna
+      #cdna_fasta_url: https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/mrna.fa.gz
+      #annotation_id: dm6_UCSC_2014_10_14_BDGP_6_plus_ISO1_MT_gff3
+      #annotation_url: 
+      # dont have a public url for the annotation?
+
+    - genome_id: mouse_dec2011_mm10_ucsc
+      name: Mouse Dec. 2011 (GRCm38/mm10)
+      build_id: mouse_dec2011_mm10_ucsc_genome
+      ucsc_key: mm10
+      fasta_url: http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/chromFa.tar.gz
+
+    - genome_id: mouse_jun2020_mm39_ucsc
+      name: Mouse Jun. 2020 (GRCm39/mm39)
+      build_id: mouse_jun2020_mm39_ucsc_genome
+      ucsc_key: mm39
+      fasta_url: https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.chromFa.tar.gz
 
 data_managers:
     #Load the genome fasta
     - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/data_manager_fetch_genome_all_fasta_dbkey/0.0.4
       params:
         - 'dbkey_source|dbkey_source_selector': 'new'
+        - 'dbkey_source|dbkey': '{{ item.dbkey }}'
+        - 'dbkey_source|dbkey_name': '{{ item.name }}'
+        - 'reference_source|reference_source_selector': 'url'
+        - 'reference_source|user_url': '{{ item.fasta_url }}'
+        - 'sequence_name': '{{ item.name }} - Genome'
+        - 'sequence_id': '{{ item.build_id }}'
+        - 'sorting|sorting_selector': 'as_is'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - all_fasta
+        - __dbkeys__
+
+
+    # #Build bowtie2 index using the genome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/bowtie2_index_builder_data_manager/2.3.5.1+galaxy1
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'sequence_name': '{{ item.name }} - Genome'
+        - 'sequence_id': '{{ item.build_id }}'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - bowtie2_indexes
+          #- tophat2_indexes
+
+     - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/2.7.4a
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'name': '{{ item.name }} - splice junctions NOT included'
+        - 'GTFconditional|GTFselect': 'withoutGTF'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - rnastar_index2x_versioned
+
+    # this creates indexes for the older versions of star
+    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_star_index_builder/rna_star_index_builder_data_manager/0.0.5
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'name': '{{ item.name }} - splice junctions NOT included'
+        - 'GTFconditional|GTFselect': 'withoutGTF'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - rnastar_index2
+
+    #Build HISAT2 INDEX
+    - id: toolshed.g2.bx.psu.edu/repos/iuc/data_manager_hisat2_index_builder/hisat2_index_builder_data_manager/2.0.5
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'sequence_name': '{{ item.name }}'
+        - 'sequence_id': '{{ item.build_id }}'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - hisat2_indexes
+
+    # Build bwa index using the genome fasta
+    #- id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.3 
+    #- id: bwa_mem_index_builder_data_manager 
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.5
+      params:
+        - 'all_fasta_source': '{{ item.build_id }}'
+        - 'sequence_name': '{{ item.name }}'
+        - 'sequence_id': '{{ item.build_id }}'
+        - 'index_algorithm': 'bwtsw'
+      items: "{{ genomes }}"
+      data_table_reload:
+        - bwa_mem_indexes
+
+
+
+    #Load the genome fasta
+    - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/data_manager_fetch_genome_all_fasta_dbkey/0.0.4
+      params:
+        - 'dbkey_source|dbkey_source_selector': 'new'
         - 'dbkey_source|dbkey': '{{ item.genome_id }}'
         - 'dbkey_source|dbkey_name': '{{ item.name }}'
-        - 'reference_source|reference_source_selector': 'ucsc'
-        - 'reference_source|requested_dbkey': '{{ item.ucsc_key }}'
+        - 'reference_source|reference_source_selector': 'url'
+        - 'reference_source|user_url': '{{ item.fasta_url }}'
         - 'sequence_name': '{{ item.name }}'
         - 'sequence_id': '{{ item.build_id }}'
         - 'sorting|sorting_selector': 'as_is'
@@ -56,6 +153,7 @@ data_managers:
 
     ## Build bwa index using the genome fasta
     #- id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.3 
+    #- id: bwa_mem_index_builder_data_manager 
     - id: toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/bwa_mem_index_builder_data_manager/0.0.5
       params:
         - 'all_fasta_source': '{{ item.build_id }}'
